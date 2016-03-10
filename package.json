@@ -1,0 +1,23 @@
+{
+  "name": "ArduinoNetworkServer",
+  "description": "A server to control the arduino lab network",
+  "version": "0.0.1",
+  "author": "Caleb French",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/clb931/arduinonetwork"
+  },
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.9",
+    "morgan": "^1.6.1",
+    "socket.io": "^1.3.7"
+  },
+  "private": true
+}

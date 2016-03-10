@@ -1,0 +1,33 @@
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 5px;
+	font-family: "Consolas";
+}
+
+div {
+	background-color: #dd550c;
+	display: inline-block;
+	border-radius: 15px;
+	padding: 0px 15px 15px 15px;
+}
+
+table {
+	background-color: #03244d;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+tr {
+	background-color: silver;
+	color: black;
+}
+
+tr:nth-child(odd) {	
+	background-color: gray;
+	color: black;
+}
+
+td {
+	padding: 15px;
+}

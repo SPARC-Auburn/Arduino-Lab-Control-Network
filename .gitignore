@@ -1,0 +1,5 @@
+Logs/
+node_modules/
+LabRelayNetwork/*.tmp
+arduino-ide/
+arduino-ide.zip/

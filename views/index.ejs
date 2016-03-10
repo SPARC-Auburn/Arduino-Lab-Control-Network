@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Equipment Network</title>
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	
+	<body>
+		<table align="center">
+			<caption><h2>Equipment Network</h2></caption>
+			<tbody id="node-table">
+				<thead>
+					<td>Machine</td>
+					<td>User</td>
+					<td>Time</td>
+					<td><button style="white-space: pre;">           </button></td>
+				</thead>
+			</tbody>
+		</table>
+
+		<form>
+			<table align="center">
+				<caption><h3>User Info</h3></caption>
+				<tbody>
+					<tr>
+						<td><label>Name</label></td><td><input id="user-name" type="text"></td>
+					</tr>
+					<tr>
+						<td><label>Professor</label></td><td><input id="user-prof" type="text"></td>
+					</tr>
+				</tbody>
+			</table>
+		</form>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
